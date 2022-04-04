@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/nav_fist"
+        android:title="FIST"
+        android:icon="@mipmap/fist"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/nav_touch"
+        android:title="TOUCH"
+        android:icon="@drawable/touch"
+        android:iconTint="@color/black"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/placeholder"
+        android:title=""
+        />
+
+    <item android:id="@+id/nav_plob"
+        android:title="PLOB"
+        android:icon="@drawable/plob"
+        android:iconTint="@color/black"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/nav_tree"
+        android:title="TREE"
+        android:icon="@mipmap/tree"
+        app:showAsAction="always"
+        />
+</menu>
